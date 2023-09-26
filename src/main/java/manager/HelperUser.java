@@ -37,14 +37,14 @@ public interface HelperUser extends HelperBase{
         // variant 1
 //     click(By.cssSelector("label[for='terms-of-use']"));
         // variant 2
-//        JavascriptExecutor js = (JavascriptExecutor)wd;
-//        js.executeScript("document.querySelector('#terms-of-use').click();");
+        JavascriptExecutor js = (JavascriptExecutor)wd;
+        js.executeScript("document.querySelector('#terms-of-use').click();");
         // variant 3
-        Rectangle rect = wd.findElement(By.id("terms-of-use")).getRect();
-        int x = rect.getX() + rect.getWidth() /14;
-        int y = rect.getY() + rect.getHeight() / 2;
-        Actions actions = new Actions(wd);
-        actions.moveByOffset(x, y).click().perform();
+//        Rectangle rect = wd.findElement(By.id("terms-of-use")).getRect();
+//        int x = rect.getX() + rect.getWidth() /14;
+//        int y = rect.getY() + rect.getHeight() / 2;
+//        Actions actions = new Actions(wd);
+//        actions.moveByOffset(x, y).click().perform();
     }
 
 
@@ -52,6 +52,9 @@ public interface HelperUser extends HelperBase{
         click(By.xpath("//button[@type='submit']"));
     }
     default void submitRegistration(){
+        click(By.xpath("//button[@type='submit']"));
+    }
+    default void submitCar(){
         click(By.xpath("//button[@type='submit']"));
     }
 
@@ -70,6 +73,9 @@ public interface HelperUser extends HelperBase{
 
     default void clickOkButton(){
         click(By.xpath("//button[@type='button']"));
+    }
+    default void clickOnHeader(){
+        click(By.xpath("//div[@class='header']//img[@alt='logo']"));
     }
 
     default void login(User user){

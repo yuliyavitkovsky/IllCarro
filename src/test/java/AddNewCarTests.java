@@ -27,7 +27,7 @@ public class AddNewCarTests extends TestBase {
                 .year("2020")
                 .fuel("Petrol")
                 .seats("5")
-                .carClass("B")
+               .carClass("B")
                 .carRegNumber("100-200-" + i)
                 .price("150")
                 .about("New car")
@@ -36,7 +36,8 @@ public class AddNewCarTests extends TestBase {
         openCarForm();
         fillCarForm(car);
         pause(5000);
-
+        logger.info("addNewCarPositive added successfully a new car: " + car.getManufacture() + " with reg.number: " + car.getCarRegNumber());
+        submitCar();
     }
 
 }

@@ -13,9 +13,12 @@ public class LoginTests extends TestBase{
 
     @Test
     public void loginPositiveTest(){
+        String email = "bubu@mail.com";
+        String password = "Bb12345$";
         openLoginForm();
-        fillLoginForm("bubu@mail.com", "Bb12345$");
+        fillLoginForm(email, password);
         submitLogin();
+        logger.info("loginPositiveTest starts with:" + email + " & " + password);
         Assert.assertTrue(isLoggedSuccess());
     }
     @Test
@@ -26,6 +29,7 @@ public class LoginTests extends TestBase{
         openLoginForm();
         fillLoginForm(user.getEmail(), user.getPassword());
         submitLogin();
+        logger.info("loginPositiveTestModel starts with:" + user.getEmail() + " & " + user.getPassword());
         Assert.assertTrue(isLoggedSuccess());
     }
 
