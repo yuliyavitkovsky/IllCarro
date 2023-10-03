@@ -20,6 +20,7 @@ public interface HelperUser extends HelperBase{
     default void fillLoginForm(String email, String password){
         type(By.id("email"), email);
         type(By.id("password"), password);
+     //   type(By.id("passwor"), password);
     }
     default void fillLoginForm(User user){
         type(By.id("email"), user.getEmail());

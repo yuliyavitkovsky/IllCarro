@@ -18,7 +18,7 @@ import java.util.concurrent.TimeUnit;
 
 public class TestBase implements HelperUser, HelperCar {
 
-    Logger logger = LoggerFactory.getLogger(TestBase.class);
+    //Logger logger = LoggerFactory.getLogger(TestBase.class);
 
     @BeforeMethod
     public void startTest(Method method){
@@ -30,6 +30,7 @@ public class TestBase implements HelperUser, HelperCar {
     public void stopTest(Method method){
 
         logger.info("Finished test--->" + method.getName());
+        logger.info("***************************************************************************************");
     }
     WebDriver wd;
 

@@ -13,14 +13,12 @@ public class RegistrationTests extends TestBase{
     @Test
     public void registrationPositive(){
         int i = (int)(System.currentTimeMillis()/1000)%3600;
-
         User user = new User(
                 "John",
                 "Snow",
                 "bebe" + i + "@mail.com",
                 "Bb12345$"
         );
-
         openRegistrationForm();
         fillRegistrationForm(user);
         submitRegistration();
@@ -59,6 +57,43 @@ public class RegistrationTests extends TestBase{
         submitRegistration();
         logger.info("registrationNegativeTestWrongPassword starts with:" + user.getEmail() + " & " + user.getPassword());
         Assert.assertTrue(isElementPresent(By.xpath("//div[@class='error']")));
+    }
+
+    @Test
+    public void registrationNegativeTestEmptyName() {
+
+        int i = (int) (System.currentTimeMillis() / 1000) % 3600;
+
+        User user = new User(
+                " ",
+                "Snow",
+                "bebe" + i + "@mail.com",
+                "Bb12345$"
+        );
+        openRegistrationForm();
+        fillRegistrationForm(user);
+        submitRegistration();
+        logger.info("registrationNegativeTestEmptyName starts with:" + user.getEmail() + " & " + user.getPassword());
+        Assert.assertTrue(isElementPresent(By.xpath("//div[@class='dialog-container']")));
+        clickOkButton();
+    }
+    @Test
+    public void registrationNegativeTestEmptyLastName() {
+
+        int i = (int) (System.currentTimeMillis() / 1000) % 3600;
+
+        User user = new User(
+                "John",
+                " ",
+                "bebe" + i + "@mail.com",
+                "Bb12345$"
+        );
+        openRegistrationForm();
+        fillRegistrationForm(user);
+        submitRegistration();
+        logger.info("registrationNegativeTestEmptyLastName starts with:" + user.getEmail() + " & " + user.getPassword());
+        Assert.assertTrue(isElementPresent(By.xpath("//div[@class='dialog-container']")));
+        clickOkButton();
     }
 
     @AfterMethod
