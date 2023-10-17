@@ -55,9 +55,7 @@ public interface HelperUser extends HelperBase{
     default void submitRegistration(){
         click(By.xpath("//button[@type='submit']"));
     }
-    default void submitCar(){
-        click(By.xpath("//button[@type='submit']"));
-    }
+
 
     default boolean isLoggedSuccess(){
         return isElementPresent(

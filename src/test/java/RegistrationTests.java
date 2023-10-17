@@ -6,11 +6,11 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class RegistrationTests extends TestBase{
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void precondition(){
         if(isLogged()) logout();
     }
-    @Test
+    @Test(groups = {"positive"})
     public void registrationPositive(){
         int i = (int)(System.currentTimeMillis()/1000)%3600;
         User user = new User(
@@ -24,7 +24,7 @@ public class RegistrationTests extends TestBase{
         submitRegistration();
         logger.info("registrationPositiveTest starts with:" + user.getEmail() + " & " + user.getPassword());
     }
-    @Test
+    @Test(groups = {"negative"})
     public void registrationNegativeTestWrongEmail(){
         int i = (int)(System.currentTimeMillis()/1000)%3600;
 
@@ -40,7 +40,7 @@ public class RegistrationTests extends TestBase{
         logger.info("registrationNegativeTestWrongEmail starts with:" + user.getEmail() + " & " + user.getPassword());
         Assert.assertTrue(isElementPresent(By.xpath("//div[@class='input-container']//div[2]")));
     }
-    @Test
+    @Test(groups = {"negative"})
     public void registrationNegativeTestWrongPassword() {
 
         int i = (int) (System.currentTimeMillis() / 1000) % 3600;
@@ -59,7 +59,7 @@ public class RegistrationTests extends TestBase{
         Assert.assertTrue(isElementPresent(By.xpath("//div[@class='error']")));
     }
 
-    @Test
+    @Test(groups = {"negative"})
     public void registrationNegativeTestEmptyName() {
 
         int i = (int) (System.currentTimeMillis() / 1000) % 3600;
@@ -77,7 +77,7 @@ public class RegistrationTests extends TestBase{
         Assert.assertTrue(isElementPresent(By.xpath("//div[@class='dialog-container']")));
         clickOkButton();
     }
-    @Test
+    @Test(groups = {"negative"})
     public void registrationNegativeTestEmptyLastName() {
 
         int i = (int) (System.currentTimeMillis() / 1000) % 3600;
@@ -96,7 +96,7 @@ public class RegistrationTests extends TestBase{
         clickOkButton();
     }
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void postcondition(){
         clickOnHeader();
     }

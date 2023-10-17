@@ -1,6 +1,7 @@
 package manager;
 
 import models.Car;
+import models.Find;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Rectangle;
 import org.openqa.selenium.WebElement;
@@ -15,6 +16,10 @@ public interface HelperCar extends HelperBase{
     default void openCarForm(){
         pause(5000);
         click(By.xpath("//a[.=' Let the car work ']"));
+    }
+    default void openFindForm(){
+        pause(5000);
+        click(By.xpath("//a[@id='0']"));
     }
 
     default void fillCarForm(Car car){
@@ -33,11 +38,38 @@ public interface HelperCar extends HelperBase{
         typeSerialNumber(car.getCarRegNumber());
         type(By.id("price"), car.getPrice());
         type(By.id("about"), car.getAbout());
+
+
+    }
+
+    default void fillFindForm(Find find) {
+        typeCity(find.getLocation());
+        type(By.id("dates"), find.getDates());
+        click(By.xpath("(//div[@class='cdk-overlay-container'])[1]"));
+    }
+
+    default void fillCalendarForm(Find find) {
+        typeCity(find.getLocation());
+        click(By.id("dates"));
+        click(By.xpath("//td[@aria-label='October 20, 2023']"));
+        click(By.xpath("//td[@aria-label='October 23, 2023']"));
+    }
+    default void fillCalendarFormNextMonth(Find find) {
+        typeCity(find.getLocation());
+        click(By.id("dates"));
+        click(By.xpath("//button[@aria-label='Next month']"));
+        click(By.xpath("//td[@aria-label='November 14, 2023']"));
+        click(By.xpath("//td[@aria-label='November 28, 2023']"));
     }
 
     default void typeLocation(String location){
 //        pause(5000);
-        type(By.id("pickUpPlace"), location);
+       type(By.id("pickUpPlace"), location);
+        click(By.className("pac-item"));
+    }
+    default void typeCity(String location){
+//        pause(5000);
+       type(By.id("city"), location);
         click(By.className("pac-item"));
     }
 
@@ -65,6 +97,12 @@ public interface HelperCar extends HelperBase{
 
     default void select(By locator, String option){
         new Select(wd.findElement(locator)).selectByValue(option);
+    }
+    default void submitCar(){
+        click(By.xpath("//button[@type='submit']"));
+    }
+    default void submitFind(){
+        click(By.xpath("//button[contains(text(),'Y’alla!')]"));
     }
 
 }

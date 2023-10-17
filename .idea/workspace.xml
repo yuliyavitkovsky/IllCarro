@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="898cda76-6046-4d95-b957-c6cd64e31d2a" name="Changes" comment="HW15">
+    <list default="true" id="898cda76-6046-4d95-b957-c6cd64e31d2a" name="Changes" comment="HW16">
       <change afterPath="$PROJECT_DIR$/Logs/log-20230928T135254.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Logs/log-20230928T135548.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Logs/log-20230928T140553.txt" afterDir="false" />
@@ -12,19 +12,25 @@
       <change afterPath="$PROJECT_DIR$/Logs/log-20230928T153159.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Logs/log-20231003T153210.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Logs/log-20231003T153516.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/manager/NGListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/manager/WDListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-1954.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-1959.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-2130.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-2133.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/log-20231003T153636.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/log-20231003T153720.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/log-20231003T153809.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/log-20231003T155354.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/log-20231003T155530.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/log-20231003T155627.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/log-20231003T155922.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/log-20231003T160004.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/log-20231003T160049.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/log-20231003T160620.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/log-20231003T160806.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/log-20231003T160948.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/log-20231003T161142.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/log-20231003T161338.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/log-20231003T161501.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/log-20231003T161530.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/manager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/ApplicationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/manager/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/HelperBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/manager/HelperUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/HelperUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RegistrationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/manager/HelperCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/HelperCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AddNewCarTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AddNewCarTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,10 +88,39 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/ProjectsJava/trelloqa39-main (5)/trelloqa39-main&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/ProjectsJava/IllCarro&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\ProjectsJava\IllCarro" />
+    </key>
+  </component>
   <component name="RunManager" selected="Gradle.LoginTests">
+    <configuration name="AddNewCarTests.addNewCarPositive" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;AddNewCarTests.addNewCarPositive&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="LoginTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -134,30 +169,6 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="LoginTests.loginNegativeTestWrongPassword" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;LoginTests.loginNegativeTestWrongPassword&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <configuration name="RegistrationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -182,7 +193,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="RegistrationTests.registrationNegativeTestEmptyLastName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Tests in 'IllCarro.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -194,8 +205,6 @@
         <option name="taskNames">
           <list>
             <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;RegistrationTests.registrationNegativeTestEmptyLastName&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -209,10 +218,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.LoginTests" />
-        <item itemvalue="Gradle.LoginTests.loginNegativeTestWrongPassword" />
         <item itemvalue="Gradle.LoginTests.loginNegativeTestWrongEmail" />
+        <item itemvalue="Gradle.Tests in 'IllCarro.test'" />
+        <item itemvalue="Gradle.AddNewCarTests.addNewCarPositive" />
         <item itemvalue="Gradle.RegistrationTests" />
-        <item itemvalue="Gradle.RegistrationTests.registrationNegativeTestEmptyLastName" />
       </list>
     </recent_temporary>
   </component>
@@ -257,7 +266,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695744753678</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="HW16">
+      <option name="closed" value="true" />
+      <created>1696340422862</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1696340422866</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -266,6 +283,7 @@
     <MESSAGE value="HW13" />
     <MESSAGE value="HW14" />
     <MESSAGE value="HW15" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW15" />
+    <MESSAGE value="HW16" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW16" />
   </component>
 </project>

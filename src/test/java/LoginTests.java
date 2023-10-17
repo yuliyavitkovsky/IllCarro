@@ -10,12 +10,12 @@ import org.testng.annotations.Test;
 
 public class LoginTests extends TestBase{
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void precondition(){
         if(isLogged()) logout();
     }
 
-    @Test
+    @Test(groups = {"positive", "smoke"})
     public void loginPositiveTest(){
         String email = "bubu@mail.com";
         String password = "Bb12345$";
@@ -26,7 +26,7 @@ public class LoginTests extends TestBase{
         Assert.assertTrue(isLoggedSuccess());
         clickOkButton();
     }
-    @Test
+    @Test(groups = {"positive"})
     public void loginPositiveTestModel(){
         User user = new User()
                 .withEmail("bubu@mail.com")
@@ -38,7 +38,7 @@ public class LoginTests extends TestBase{
         Assert.assertTrue(isLoggedSuccess());
         clickOkButton();
     }
-    @Test
+    @Test(groups = {"negative"})
     public void loginNegativeTestWrongEmail(){
         User user = new User()
                 .withEmail("bubumail.com")
@@ -50,7 +50,7 @@ public class LoginTests extends TestBase{
         Assert.assertTrue(isElementPresent(By.xpath("//div[@class='error']")));
     }
 
-    @Test
+    @Test(groups = {"negative"})
     public void loginNegativeTestWrongPassword(){
         User user = new User()
                 .withEmail("bubu@mail.com")
@@ -63,7 +63,7 @@ public class LoginTests extends TestBase{
         clickOkButton();
     }
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void postcondition(){
         clickOnHeader();
     }

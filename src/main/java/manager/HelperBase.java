@@ -29,6 +29,11 @@ public interface HelperBase extends ApplicationManager{
         element.clear();
         element.sendKeys(text);
     }
+    default void delete(By locator, String text){
+        WebElement element = wd.findElement(locator);
+        element.click();
+        element.clear();
+    }
 
     default boolean isElementPresent(By locator){
         return wd.findElements(locator).size() > 0;
