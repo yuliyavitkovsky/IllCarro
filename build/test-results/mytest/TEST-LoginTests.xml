@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LoginTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-10-19T10:09:19" hostname="DESKTOP-V4G640E" time="19.36">
+  <properties/>
+  <testcase name="loginNegativeTestWrongEmail" classname="LoginTests" time="1.838"/>
+  <testcase name="loginNegativeTestWrongPassword" classname="LoginTests" time="2.576"/>
+  <testcase name="loginPositiveTest" classname="LoginTests" time="1.569"/>
+  <testcase name="loginPositiveTestModel" classname="LoginTests" time="1.59"/>
+  <testcase name="loginPositiveTestProps" classname="LoginTests" time="1.695"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[1697710161474	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:429:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:178:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ilcarro.web.app."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ilcarro.web.app."
+]]></system-err>
+</testsuite>

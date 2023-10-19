@@ -1,0 +1,409 @@
+2023-10-18 18:28:53,690 INFO m.ApplicationManager [ApplicationManager.java:41] Navigated to the link ---> https://ilcarro.web.app/search
+2023-10-18 18:28:53,790 INFO m.ApplicationManager [TestBase.java:25] Started test ---> loginNegativeTestWrongEmail
+2023-10-18 18:28:53,793 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //*[.=' Logout ']
+2023-10-18 18:28:56,840 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //*[.=' Logout ']is found
+2023-10-18 18:28:56,842 INFO m.NGListener [NGListener.java:16] Start of the test ---> loginNegativeTestWrongEmail
+2023-10-18 18:28:56,843 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //*[.=' Log in ']
+2023-10-18 18:28:56,870 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //*[.=' Log in ']is found
+2023-10-18 18:28:57,190 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: email
+2023-10-18 18:28:57,205 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: emailis found
+2023-10-18 18:28:57,534 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: password
+2023-10-18 18:28:57,548 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: passwordis found
+2023-10-18 18:28:57,834 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //button[@type='submit']
+2023-10-18 18:28:57,845 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //button[@type='submit']is found
+2023-10-18 18:28:58,568 INFO m.ApplicationManager [LoginTests.java:59] loginNegativeTestWrongEmail starts with:bubumail.com & Bb12345$
+2023-10-18 18:28:58,568 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //div[@class='error']
+2023-10-18 18:28:58,585 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //div[@class='error']is found
+2023-10-18 18:28:58,592 INFO m.NGListener [NGListener.java:22] Success test ---> loginNegativeTestWrongEmail
+2023-10-18 18:28:58,594 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //div[@class='header']//img[@alt='logo']
+2023-10-18 18:28:58,600 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //div[@class='header']//img[@alt='logo']is found
+2023-10-18 18:28:59,398 INFO m.ApplicationManager [TestBase.java:31] Finished test--->loginNegativeTestWrongEmail
+2023-10-18 18:28:59,399 INFO m.ApplicationManager [TestBase.java:32] ***************************************************************************************
+2023-10-18 18:28:59,403 INFO m.ApplicationManager [TestBase.java:25] Started test ---> loginNegativeTestWrongPassword
+2023-10-18 18:28:59,404 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //*[.=' Logout ']
+2023-10-18 18:29:02,427 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //*[.=' Logout ']is found
+2023-10-18 18:29:02,428 INFO m.NGListener [NGListener.java:16] Start of the test ---> loginNegativeTestWrongPassword
+2023-10-18 18:29:02,428 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //*[.=' Log in ']
+2023-10-18 18:29:02,449 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //*[.=' Log in ']is found
+2023-10-18 18:29:02,786 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: email
+2023-10-18 18:29:02,802 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: emailis found
+2023-10-18 18:29:03,100 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: password
+2023-10-18 18:29:03,114 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: passwordis found
+2023-10-18 18:29:03,393 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //button[@type='submit']
+2023-10-18 18:29:03,409 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //button[@type='submit']is found
+2023-10-18 18:29:03,672 INFO m.ApplicationManager [LoginTests.java:71] loginNegativeTestWrongPassword starts with:bubu@mail.com & Bb12345
+2023-10-18 18:29:03,672 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //div[@class='dialog-container']
+2023-10-18 18:29:04,647 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //div[@class='dialog-container']is found
+2023-10-18 18:29:04,648 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //button[@type='button']
+2023-10-18 18:29:04,667 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //button[@type='button']is found
+2023-10-18 18:29:04,911 INFO m.NGListener [NGListener.java:22] Success test ---> loginNegativeTestWrongPassword
+2023-10-18 18:29:04,912 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //div[@class='header']//img[@alt='logo']
+2023-10-18 18:29:04,931 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //div[@class='header']//img[@alt='logo']is found
+2023-10-18 18:29:05,575 INFO m.ApplicationManager [TestBase.java:31] Finished test--->loginNegativeTestWrongPassword
+2023-10-18 18:29:05,575 INFO m.ApplicationManager [TestBase.java:32] ***************************************************************************************
+2023-10-18 18:29:05,577 INFO m.ApplicationManager [TestBase.java:25] Started test ---> loginPositiveTest
+2023-10-18 18:29:05,579 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //*[.=' Logout ']
+2023-10-18 18:29:08,611 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //*[.=' Logout ']is found
+2023-10-18 18:29:08,612 INFO m.NGListener [NGListener.java:16] Start of the test ---> loginPositiveTest
+2023-10-18 18:29:08,612 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //*[.=' Log in ']
+2023-10-18 18:29:08,628 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //*[.=' Log in ']is found
+2023-10-18 18:29:08,898 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: email
+2023-10-18 18:29:08,907 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: emailis found
+2023-10-18 18:29:09,202 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: password
+2023-10-18 18:29:09,221 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: passwordis found
+2023-10-18 18:29:09,500 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //button[@type='submit']
+2023-10-18 18:29:09,517 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //button[@type='submit']is found
+2023-10-18 18:29:09,761 INFO m.ApplicationManager [LoginTests.java:25] loginPositiveTest starts with:bubu@mail.com & Bb12345$
+2023-10-18 18:29:09,761 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //h2[contains(text(),'success')]
+2023-10-18 18:29:09,880 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //h2[contains(text(),'success')]is found
+2023-10-18 18:29:09,881 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //button[@type='button']
+2023-10-18 18:29:09,889 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //button[@type='button']is found
+2023-10-18 18:29:10,120 INFO m.NGListener [NGListener.java:22] Success test ---> loginPositiveTest
+2023-10-18 18:29:10,121 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //div[@class='header']//img[@alt='logo']
+2023-10-18 18:29:10,141 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //div[@class='header']//img[@alt='logo']is found
+2023-10-18 18:29:10,816 INFO m.ApplicationManager [TestBase.java:31] Finished test--->loginPositiveTest
+2023-10-18 18:29:10,817 INFO m.ApplicationManager [TestBase.java:32] ***************************************************************************************
+2023-10-18 18:29:10,820 INFO m.ApplicationManager [TestBase.java:25] Started test ---> loginPositiveTestModel
+2023-10-18 18:29:10,821 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //*[.=' Logout ']
+2023-10-18 18:29:10,934 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //*[.=' Logout ']is found
+2023-10-18 18:29:10,935 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //*[.=' Logout ']
+2023-10-18 18:29:10,953 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //*[.=' Logout ']is found
+2023-10-18 18:29:11,230 INFO m.NGListener [NGListener.java:16] Start of the test ---> loginPositiveTestModel
+2023-10-18 18:29:11,230 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //*[.=' Log in ']
+2023-10-18 18:29:11,253 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //*[.=' Log in ']is found
+2023-10-18 18:29:11,517 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: email
+2023-10-18 18:29:11,533 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: emailis found
+2023-10-18 18:29:11,830 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: password
+2023-10-18 18:29:11,845 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: passwordis found
+2023-10-18 18:29:12,133 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //button[@type='submit']
+2023-10-18 18:29:12,155 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //button[@type='submit']is found
+2023-10-18 18:29:12,395 INFO m.ApplicationManager [LoginTests.java:47] loginPositiveTestModel starts with:bubu@mail.com & Bb12345$
+2023-10-18 18:29:12,396 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //h2[contains(text(),'success')]
+2023-10-18 18:29:12,481 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //h2[contains(text(),'success')]is found
+2023-10-18 18:29:12,481 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //button[@type='button']
+2023-10-18 18:29:12,498 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //button[@type='button']is found
+2023-10-18 18:29:12,733 INFO m.NGListener [NGListener.java:22] Success test ---> loginPositiveTestModel
+2023-10-18 18:29:12,735 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //div[@class='header']//img[@alt='logo']
+2023-10-18 18:29:12,748 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //div[@class='header']//img[@alt='logo']is found
+2023-10-18 18:29:13,177 INFO m.ApplicationManager [TestBase.java:31] Finished test--->loginPositiveTestModel
+2023-10-18 18:29:13,178 INFO m.ApplicationManager [TestBase.java:32] ***************************************************************************************
+2023-10-18 18:29:13,181 INFO m.ApplicationManager [TestBase.java:25] Started test ---> loginPositiveTestProps
+2023-10-18 18:29:13,182 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //*[.=' Logout ']
+2023-10-18 18:29:13,197 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //*[.=' Logout ']is found
+2023-10-18 18:29:13,197 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //*[.=' Logout ']
+2023-10-18 18:29:13,210 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //*[.=' Logout ']is found
+2023-10-18 18:29:13,489 INFO m.NGListener [NGListener.java:16] Start of the test ---> loginPositiveTestProps
+2023-10-18 18:29:13,490 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //*[.=' Log in ']
+2023-10-18 18:29:13,513 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //*[.=' Log in ']is found
+2023-10-18 18:29:13,823 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: email
+2023-10-18 18:29:13,867 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: emailis found
+2023-10-18 18:29:14,193 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: password
+2023-10-18 18:29:14,208 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: passwordis found
+2023-10-18 18:29:14,488 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //button[@type='submit']
+2023-10-18 18:29:14,503 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //button[@type='submit']is found
+2023-10-18 18:29:14,751 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //h2[contains(text(),'success')]
+2023-10-18 18:29:14,839 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //h2[contains(text(),'success')]is found
+2023-10-18 18:29:14,839 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //button[@type='button']
+2023-10-18 18:29:14,861 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //button[@type='button']is found
+2023-10-18 18:29:15,094 INFO m.NGListener [NGListener.java:22] Success test ---> loginPositiveTestProps
+2023-10-18 18:29:15,095 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //div[@class='header']//img[@alt='logo']
+2023-10-18 18:29:15,111 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //div[@class='header']//img[@alt='logo']is found
+2023-10-18 18:29:15,553 INFO m.ApplicationManager [TestBase.java:31] Finished test--->loginPositiveTestProps
+2023-10-18 18:29:15,554 INFO m.ApplicationManager [TestBase.java:32] ***************************************************************************************
+2023-10-18 18:29:15,566 INFO m.ApplicationManager [TestBase.java:25] Started test ---> registrationNegativeTestEmptyLastName
+2023-10-18 18:29:15,569 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //*[.=' Logout ']
+2023-10-18 18:29:15,589 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //*[.=' Logout ']is found
+2023-10-18 18:29:15,589 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //*[.=' Logout ']
+2023-10-18 18:29:15,614 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //*[.=' Logout ']is found
+2023-10-18 18:29:15,910 INFO m.NGListener [NGListener.java:16] Start of the test ---> registrationNegativeTestEmptyLastName
+2023-10-18 18:29:15,911 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //*[.=' Sign up ']
+2023-10-18 18:29:15,924 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //*[.=' Sign up ']is found
+2023-10-18 18:29:16,225 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: name
+2023-10-18 18:29:16,234 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: nameis found
+2023-10-18 18:29:16,568 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: lastName
+2023-10-18 18:29:16,610 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: lastNameis found
+2023-10-18 18:29:16,894 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: email
+2023-10-18 18:29:16,907 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: emailis found
+2023-10-18 18:29:17,236 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: password
+2023-10-18 18:29:17,254 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: passwordis found
+2023-10-18 18:29:17,588 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //button[@type='submit']
+2023-10-18 18:29:17,609 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //button[@type='submit']is found
+2023-10-18 18:29:17,899 INFO m.ApplicationManager [RegistrationTests.java:94] registrationNegativeTestEmptyLastName starts with:bebe1755@mail.com & Bb12345$
+2023-10-18 18:29:17,900 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //div[@class='dialog-container']
+2023-10-18 18:29:18,084 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //div[@class='dialog-container']is found
+2023-10-18 18:29:18,085 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //button[@type='button']
+2023-10-18 18:29:18,102 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //button[@type='button']is found
+2023-10-18 18:29:18,346 INFO m.NGListener [NGListener.java:22] Success test ---> registrationNegativeTestEmptyLastName
+2023-10-18 18:29:18,347 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //div[@class='header']//img[@alt='logo']
+2023-10-18 18:29:18,372 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //div[@class='header']//img[@alt='logo']is found
+2023-10-18 18:29:19,105 INFO m.ApplicationManager [TestBase.java:31] Finished test--->registrationNegativeTestEmptyLastName
+2023-10-18 18:29:19,106 INFO m.ApplicationManager [TestBase.java:32] ***************************************************************************************
+2023-10-18 18:29:19,108 INFO m.ApplicationManager [TestBase.java:25] Started test ---> registrationNegativeTestEmptyName
+2023-10-18 18:29:19,109 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //*[.=' Logout ']
+2023-10-18 18:29:22,122 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //*[.=' Logout ']is found
+2023-10-18 18:29:22,123 INFO m.NGListener [NGListener.java:16] Start of the test ---> registrationNegativeTestEmptyName
+2023-10-18 18:29:22,123 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //*[.=' Sign up ']
+2023-10-18 18:29:22,133 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //*[.=' Sign up ']is found
+2023-10-18 18:29:22,454 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: name
+2023-10-18 18:29:22,482 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: nameis found
+2023-10-18 18:29:22,771 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: lastName
+2023-10-18 18:29:22,789 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: lastNameis found
+2023-10-18 18:29:23,101 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: email
+2023-10-18 18:29:23,114 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: emailis found
+2023-10-18 18:29:23,554 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: password
+2023-10-18 18:29:23,586 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: passwordis found
+2023-10-18 18:29:24,007 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //button[@type='submit']
+2023-10-18 18:29:24,026 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //button[@type='submit']is found
+2023-10-18 18:29:24,351 INFO m.ApplicationManager [RegistrationTests.java:76] registrationNegativeTestEmptyName starts with:bebe1762@mail.com & Bb12345$
+2023-10-18 18:29:24,352 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //div[@class='dialog-container']
+2023-10-18 18:29:24,376 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //div[@class='dialog-container']is found
+2023-10-18 18:29:24,377 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //button[@type='button']
+2023-10-18 18:29:24,398 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //button[@type='button']is found
+2023-10-18 18:29:24,671 INFO m.NGListener [NGListener.java:22] Success test ---> registrationNegativeTestEmptyName
+2023-10-18 18:29:24,680 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //div[@class='header']//img[@alt='logo']
+2023-10-18 18:29:24,698 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //div[@class='header']//img[@alt='logo']is found
+2023-10-18 18:29:25,529 INFO m.ApplicationManager [TestBase.java:31] Finished test--->registrationNegativeTestEmptyName
+2023-10-18 18:29:25,531 INFO m.ApplicationManager [TestBase.java:32] ***************************************************************************************
+2023-10-18 18:29:25,533 INFO m.ApplicationManager [TestBase.java:25] Started test ---> registrationNegativeTestWrongEmail
+2023-10-18 18:29:25,535 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //*[.=' Logout ']
+2023-10-18 18:29:28,556 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //*[.=' Logout ']is found
+2023-10-18 18:29:28,557 INFO m.NGListener [NGListener.java:16] Start of the test ---> registrationNegativeTestWrongEmail
+2023-10-18 18:29:28,557 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //*[.=' Sign up ']
+2023-10-18 18:29:28,570 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //*[.=' Sign up ']is found
+2023-10-18 18:29:28,916 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: name
+2023-10-18 18:29:28,928 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: nameis found
+2023-10-18 18:29:29,226 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: lastName
+2023-10-18 18:29:29,238 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: lastNameis found
+2023-10-18 18:29:29,512 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: email
+2023-10-18 18:29:29,535 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: emailis found
+2023-10-18 18:29:29,833 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: password
+2023-10-18 18:29:29,846 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: passwordis found
+2023-10-18 18:29:30,160 INFO m.ApplicationManager [RegistrationTests.java:40] registrationNegativeTestWrongEmail starts with:bebe1768mail.com & Bb12345$
+2023-10-18 18:29:30,160 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //div[@class='input-container']//div[2]
+2023-10-18 18:29:30,173 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //div[@class='input-container']//div[2]is found
+2023-10-18 18:29:30,174 INFO m.NGListener [NGListener.java:22] Success test ---> registrationNegativeTestWrongEmail
+2023-10-18 18:29:30,175 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //div[@class='header']//img[@alt='logo']
+2023-10-18 18:29:30,189 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //div[@class='header']//img[@alt='logo']is found
+2023-10-18 18:29:30,639 INFO m.ApplicationManager [TestBase.java:31] Finished test--->registrationNegativeTestWrongEmail
+2023-10-18 18:29:30,639 INFO m.ApplicationManager [TestBase.java:32] ***************************************************************************************
+2023-10-18 18:29:30,641 INFO m.ApplicationManager [TestBase.java:25] Started test ---> registrationNegativeTestWrongPassword
+2023-10-18 18:29:30,642 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //*[.=' Logout ']
+2023-10-18 18:29:33,676 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //*[.=' Logout ']is found
+2023-10-18 18:29:33,677 INFO m.NGListener [NGListener.java:16] Start of the test ---> registrationNegativeTestWrongPassword
+2023-10-18 18:29:33,678 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //*[.=' Sign up ']
+2023-10-18 18:29:33,695 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //*[.=' Sign up ']is found
+2023-10-18 18:29:33,983 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: name
+2023-10-18 18:29:34,003 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: nameis found
+2023-10-18 18:29:34,268 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: lastName
+2023-10-18 18:29:34,283 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: lastNameis found
+2023-10-18 18:29:34,561 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: email
+2023-10-18 18:29:34,579 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: emailis found
+2023-10-18 18:29:34,880 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: password
+2023-10-18 18:29:34,891 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: passwordis found
+2023-10-18 18:29:35,194 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //button[@type='submit']
+2023-10-18 18:29:35,205 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //button[@type='submit']is found
+2023-10-18 18:29:35,929 INFO m.ApplicationManager [RegistrationTests.java:58] registrationNegativeTestWrongPassword starts with:bebe1773@mail.com & b12345
+2023-10-18 18:29:35,930 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //div[@class='error']
+2023-10-18 18:29:35,953 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //div[@class='error']is found
+2023-10-18 18:29:35,954 INFO m.NGListener [NGListener.java:22] Success test ---> registrationNegativeTestWrongPassword
+2023-10-18 18:29:35,954 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //div[@class='header']//img[@alt='logo']
+2023-10-18 18:29:35,963 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //div[@class='header']//img[@alt='logo']is found
+2023-10-18 18:29:36,410 INFO m.ApplicationManager [TestBase.java:31] Finished test--->registrationNegativeTestWrongPassword
+2023-10-18 18:29:36,411 INFO m.ApplicationManager [TestBase.java:32] ***************************************************************************************
+2023-10-18 18:29:36,412 INFO m.ApplicationManager [TestBase.java:25] Started test ---> registrationPositive
+2023-10-18 18:29:36,414 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //*[.=' Logout ']
+2023-10-18 18:29:39,444 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //*[.=' Logout ']is found
+2023-10-18 18:29:39,445 INFO m.NGListener [NGListener.java:16] Start of the test ---> registrationPositive
+2023-10-18 18:29:39,445 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //*[.=' Sign up ']
+2023-10-18 18:29:39,461 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //*[.=' Sign up ']is found
+2023-10-18 18:29:39,726 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: name
+2023-10-18 18:29:39,741 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: nameis found
+2023-10-18 18:29:40,021 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: lastName
+2023-10-18 18:29:40,035 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: lastNameis found
+2023-10-18 18:29:40,326 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: email
+2023-10-18 18:29:40,347 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: emailis found
+2023-10-18 18:29:40,653 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: password
+2023-10-18 18:29:40,663 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: passwordis found
+2023-10-18 18:29:40,961 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //button[@type='submit']
+2023-10-18 18:29:40,973 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //button[@type='submit']is found
+2023-10-18 18:29:41,227 INFO m.ApplicationManager [RegistrationTests.java:25] registrationPositiveTest starts with:bebe1779@mail.com & Bb12345$
+2023-10-18 18:29:41,227 INFO m.NGListener [NGListener.java:22] Success test ---> registrationPositive
+2023-10-18 18:29:41,229 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //div[@class='header']//img[@alt='logo']
+2023-10-18 18:29:41,238 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //div[@class='header']//img[@alt='logo']is found
+2023-10-18 18:29:41,807 INFO m.ApplicationManager [TestBase.java:31] Finished test--->registrationPositive
+2023-10-18 18:29:41,807 INFO m.ApplicationManager [TestBase.java:32] ***************************************************************************************
+2023-10-18 18:29:41,812 INFO m.ApplicationManager [TestBase.java:25] Started test ---> addNewCarPositive
+2023-10-18 18:29:41,813 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //*[.=' Logout ']
+2023-10-18 18:29:44,848 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //*[.=' Logout ']is found
+2023-10-18 18:29:44,849 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //*[.=' Log in ']
+2023-10-18 18:29:44,867 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //*[.=' Log in ']is found
+2023-10-18 18:29:45,153 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: email
+2023-10-18 18:29:45,160 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: emailis found
+2023-10-18 18:29:45,441 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: password
+2023-10-18 18:29:45,460 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: passwordis found
+2023-10-18 18:29:45,837 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //button[@type='submit']
+2023-10-18 18:29:45,888 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //button[@type='submit']is found
+2023-10-18 18:29:46,173 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //button[@type='button']
+2023-10-18 18:29:46,314 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //button[@type='button']is found
+2023-10-18 18:29:46,637 INFO m.NGListener [NGListener.java:16] Start of the test ---> addNewCarPositive
+2023-10-18 18:29:51,645 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //a[.=' Let the car work ']
+2023-10-18 18:29:51,665 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //a[.=' Let the car work ']is found
+2023-10-18 18:29:52,019 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.cssSelector: h2
+2023-10-18 18:29:52,040 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.cssSelector: h2is found
+2023-10-18 18:29:52,072 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: pickUpPlace
+2023-10-18 18:29:52,085 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: pickUpPlaceis found
+2023-10-18 18:29:52,393 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.className: pac-item
+2023-10-18 18:29:52,768 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.className: pac-itemis found
+2023-10-18 18:29:53,526 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: make
+2023-10-18 18:29:53,546 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: makeis found
+2023-10-18 18:29:53,807 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: model
+2023-10-18 18:29:53,816 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: modelis found
+2023-10-18 18:29:54,116 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: year
+2023-10-18 18:29:54,126 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: yearis found
+2023-10-18 18:29:54,402 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: fuel
+2023-10-18 18:29:54,420 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: fuelis found
+2023-10-18 18:29:54,461 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: .//option[@value = "Petrol"]
+2023-10-18 18:29:54,468 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: .//option[@value = "Petrol"]is found
+2023-10-18 18:29:54,711 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: seats
+2023-10-18 18:29:54,717 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: seatsis found
+2023-10-18 18:29:54,986 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: class
+2023-10-18 18:29:54,999 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: classis found
+2023-10-18 18:29:55,267 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: serialNumber
+2023-10-18 18:29:55,277 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: serialNumberis found
+2023-10-18 18:29:55,339 INFO m.WDListener [WDListener.java:33] Something went wrong
+2023-10-18 18:29:55,340 INFO m.WDListener [WDListener.java:34] (384, 789) is out of bounds of viewport width (1600) and height (775)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-V4G640E', ip: '10.0.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4444, moz:profile: C:\Users\yuliy\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d80ca09e-56f2-4394-85e0-282a0de0d8e0
+2023-10-18 18:29:55,340 INFO m.WDListener [WDListener.java:35] org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: (384, 789) is out of bounds of viewport width (1600) and height (775)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-V4G640E', ip: '10.0.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4444, moz:profile: C:\Users\yuliy\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d80ca09e-56f2-4394-85e0-282a0de0d8e0
+2023-10-18 18:29:55,450 INFO m.WDListener [WDListener.java:39] Here is the path to screenshot with error ---> src/test/screenshots/screenshot-1795.png
+2023-10-18 18:29:55,451 INFO m.NGListener [NGListener.java:28] Failure test ---> org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: (384, 789) is out of bounds of viewport width (1600) and height (775)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-V4G640E', ip: '10.0.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4444, moz:profile: C:\Users\yuliy\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d80ca09e-56f2-4394-85e0-282a0de0d8e0
+2023-10-18 18:29:55,453 INFO m.ApplicationManager [TestBase.java:31] Finished test--->addNewCarPositive
+2023-10-18 18:29:55,453 INFO m.ApplicationManager [TestBase.java:32] ***************************************************************************************
+2023-10-18 18:29:55,455 INFO m.ApplicationManager [TestBase.java:25] Started test ---> findCarPositive
+2023-10-18 18:29:55,456 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //*[.=' Logout ']
+2023-10-18 18:29:55,469 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //*[.=' Logout ']is found
+2023-10-18 18:29:55,470 INFO m.NGListener [NGListener.java:16] Start of the test ---> findCarPositive
+2023-10-18 18:30:00,482 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //a[@id='0']
+2023-10-18 18:30:00,505 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //a[@id='0']is found
+2023-10-18 18:30:00,819 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: city
+2023-10-18 18:30:00,833 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: cityis found
+2023-10-18 18:30:01,150 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.className: pac-item
+2023-10-18 18:30:01,361 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.className: pac-itemis found
+2023-10-18 18:30:02,092 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: dates
+2023-10-18 18:30:02,110 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: datesis found
+2023-10-18 18:30:02,620 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: (//div[@class='cdk-overlay-container'])[1]
+2023-10-18 18:30:02,641 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: (//div[@class='cdk-overlay-container'])[1]is found
+2023-10-18 18:30:02,896 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //button[contains(text(),'Y’alla!')]
+2023-10-18 18:30:05,913 INFO m.WDListener [WDListener.java:33] Something went wrong
+2023-10-18 18:30:05,914 INFO m.WDListener [WDListener.java:34] Unable to locate element: //button[contains(text(),'Y’alla!')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-V4G640E', ip: '10.0.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4444, moz:profile: C:\Users\yuliy\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d80ca09e-56f2-4394-85e0-282a0de0d8e0
+*** Element info: {Using=xpath, value=//button[contains(text(),'Y’alla!')]}
+2023-10-18 18:30:05,914 INFO m.WDListener [WDListener.java:35] org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[contains(text(),'Y’alla!')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-V4G640E', ip: '10.0.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4444, moz:profile: C:\Users\yuliy\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d80ca09e-56f2-4394-85e0-282a0de0d8e0
+*** Element info: {Using=xpath, value=//button[contains(text(),'Y’alla!')]}
+2023-10-18 18:30:06,208 INFO m.WDListener [WDListener.java:39] Here is the path to screenshot with error ---> src/test/screenshots/screenshot-1805.png
+2023-10-18 18:30:06,209 INFO m.NGListener [NGListener.java:28] Failure test ---> org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[contains(text(),'Y’alla!')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-V4G640E', ip: '10.0.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4444, moz:profile: C:\Users\yuliy\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d80ca09e-56f2-4394-85e0-282a0de0d8e0
+*** Element info: {Using=xpath, value=//button[contains(text(),'Y’alla!')]}
+2023-10-18 18:30:06,210 INFO m.ApplicationManager [TestBase.java:31] Finished test--->findCarPositive
+2023-10-18 18:30:06,211 INFO m.ApplicationManager [TestBase.java:32] ***************************************************************************************
+2023-10-18 18:30:06,213 INFO m.ApplicationManager [TestBase.java:25] Started test ---> findCarPositiveNextMonth
+2023-10-18 18:30:06,214 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //*[.=' Logout ']
+2023-10-18 18:30:06,235 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //*[.=' Logout ']is found
+2023-10-18 18:30:06,236 INFO m.NGListener [NGListener.java:16] Start of the test ---> findCarPositiveNextMonth
+2023-10-18 18:30:11,249 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //a[@id='0']
+2023-10-18 18:30:11,270 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //a[@id='0']is found
+2023-10-18 18:30:11,522 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: city
+2023-10-18 18:30:11,535 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: cityis found
+2023-10-18 18:30:11,854 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.className: pac-item
+2023-10-18 18:30:12,046 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.className: pac-itemis found
+2023-10-18 18:30:12,793 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: dates
+2023-10-18 18:30:12,810 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: datesis found
+2023-10-18 18:30:13,117 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //button[@aria-label='Next month']
+2023-10-18 18:30:13,126 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //button[@aria-label='Next month']is found
+2023-10-18 18:30:13,389 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //td[@aria-label='November 14, 2023']
+2023-10-18 18:30:16,411 INFO m.WDListener [WDListener.java:33] Something went wrong
+2023-10-18 18:30:16,411 INFO m.WDListener [WDListener.java:34] Unable to locate element: //td[@aria-label='November 14, 2023']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-V4G640E', ip: '10.0.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4444, moz:profile: C:\Users\yuliy\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d80ca09e-56f2-4394-85e0-282a0de0d8e0
+*** Element info: {Using=xpath, value=//td[@aria-label='November 14, 2023']}
+2023-10-18 18:30:16,411 INFO m.WDListener [WDListener.java:35] org.openqa.selenium.NoSuchElementException: Unable to locate element: //td[@aria-label='November 14, 2023']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-V4G640E', ip: '10.0.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4444, moz:profile: C:\Users\yuliy\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d80ca09e-56f2-4394-85e0-282a0de0d8e0
+*** Element info: {Using=xpath, value=//td[@aria-label='November 14, 2023']}
+2023-10-18 18:30:16,687 INFO m.WDListener [WDListener.java:39] Here is the path to screenshot with error ---> src/test/screenshots/screenshot-1816.png
+2023-10-18 18:30:16,688 INFO m.NGListener [NGListener.java:28] Failure test ---> org.openqa.selenium.NoSuchElementException: Unable to locate element: //td[@aria-label='November 14, 2023']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-V4G640E', ip: '10.0.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4444, moz:profile: C:\Users\yuliy\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d80ca09e-56f2-4394-85e0-282a0de0d8e0
+*** Element info: {Using=xpath, value=//td[@aria-label='November 14, 2023']}
+2023-10-18 18:30:16,690 INFO m.ApplicationManager [TestBase.java:31] Finished test--->findCarPositiveNextMonth
+2023-10-18 18:30:16,690 INFO m.ApplicationManager [TestBase.java:32] ***************************************************************************************
+2023-10-18 18:30:16,692 INFO m.ApplicationManager [TestBase.java:25] Started test ---> findCarPositiveThisMonth
+2023-10-18 18:30:16,695 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //*[.=' Logout ']
+2023-10-18 18:30:16,712 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //*[.=' Logout ']is found
+2023-10-18 18:30:16,713 INFO m.NGListener [NGListener.java:16] Start of the test ---> findCarPositiveThisMonth
+2023-10-18 18:30:21,715 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //a[@id='0']
+2023-10-18 18:30:21,734 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //a[@id='0']is found
+2023-10-18 18:30:21,755 INFO m.WDListener [WDListener.java:33] Something went wrong
+2023-10-18 18:30:21,755 INFO m.WDListener [WDListener.java:34] Element <a id="0" class="navigation-link" href="/search"> is not clickable at point (719,34) because another element <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-V4G640E', ip: '10.0.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4444, moz:profile: C:\Users\yuliy\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d80ca09e-56f2-4394-85e0-282a0de0d8e0
+2023-10-18 18:30:21,756 INFO m.WDListener [WDListener.java:35] org.openqa.selenium.ElementClickInterceptedException: Element <a id="0" class="navigation-link" href="/search"> is not clickable at point (719,34) because another element <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-V4G640E', ip: '10.0.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4444, moz:profile: C:\Users\yuliy\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d80ca09e-56f2-4394-85e0-282a0de0d8e0
+2023-10-18 18:30:22,027 INFO m.WDListener [WDListener.java:39] Here is the path to screenshot with error ---> src/test/screenshots/screenshot-1821.png
+2023-10-18 18:30:22,028 INFO m.NGListener [NGListener.java:28] Failure test ---> org.openqa.selenium.ElementClickInterceptedException: Element <a id="0" class="navigation-link" href="/search"> is not clickable at point (719,34) because another element <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-V4G640E', ip: '10.0.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4444, moz:profile: C:\Users\yuliy\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d80ca09e-56f2-4394-85e0-282a0de0d8e0
+2023-10-18 18:30:22,030 INFO m.ApplicationManager [TestBase.java:31] Finished test--->findCarPositiveThisMonth
+2023-10-18 18:30:22,030 INFO m.ApplicationManager [TestBase.java:32] ***************************************************************************************
+2023-10-18 18:30:37,583 INFO m.ApplicationManager [ApplicationManager.java:48] Tests completed

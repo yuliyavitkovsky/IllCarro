@@ -1,0 +1,23 @@
+2023-10-18 18:26:33,735 INFO m.ApplicationManager [ApplicationManager.java:41] Navigated to the link ---> https://ilcarro.web.app/search
+2023-10-18 18:26:33,817 INFO m.ApplicationManager [TestBase.java:25] Started test ---> loginPositiveTestProps
+2023-10-18 18:26:33,819 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //*[.=' Logout ']
+2023-10-18 18:26:36,885 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //*[.=' Logout ']is found
+2023-10-18 18:26:36,887 INFO m.NGListener [NGListener.java:16] Start of the test ---> loginPositiveTestProps
+2023-10-18 18:26:36,888 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //*[.=' Log in ']
+2023-10-18 18:26:36,918 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //*[.=' Log in ']is found
+2023-10-18 18:26:37,065 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: email
+2023-10-18 18:26:37,090 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: emailis found
+2023-10-18 18:26:37,442 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: password
+2023-10-18 18:26:37,479 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: passwordis found
+2023-10-18 18:26:37,688 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //button[@type='submit']
+2023-10-18 18:26:37,722 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //button[@type='submit']is found
+2023-10-18 18:26:37,823 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //h2[contains(text(),'success')]
+2023-10-18 18:26:38,884 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //h2[contains(text(),'success')]is found
+2023-10-18 18:26:38,889 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //button[@type='button']
+2023-10-18 18:26:38,915 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //button[@type='button']is found
+2023-10-18 18:26:38,991 INFO m.NGListener [NGListener.java:22] Success test ---> loginPositiveTestProps
+2023-10-18 18:26:38,993 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //div[@class='header']//img[@alt='logo']
+2023-10-18 18:26:39,069 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //div[@class='header']//img[@alt='logo']is found
+2023-10-18 18:26:39,991 INFO m.ApplicationManager [TestBase.java:31] Finished test--->loginPositiveTestProps
+2023-10-18 18:26:39,992 INFO m.ApplicationManager [TestBase.java:32] ***************************************************************************************
+2023-10-18 18:26:46,401 INFO m.ApplicationManager [ApplicationManager.java:48] Tests completed

@@ -1,0 +1,31 @@
+2023-10-17 15:06:54,835 INFO m.ApplicationManager [ApplicationManager.java:35] Navigated to the link ---> https://ilcarro.web.app/search
+2023-10-17 15:06:54,895 INFO m.ApplicationManager [TestBase.java:25] Started test ---> findCarPositiveThisMonth
+2023-10-17 15:06:54,900 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //*[.=' Logout ']
+2023-10-17 15:06:57,966 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //*[.=' Logout ']is found
+2023-10-17 15:06:57,967 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //*[.=' Log in ']
+2023-10-17 15:06:58,002 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //*[.=' Log in ']is found
+2023-10-17 15:06:58,140 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: email
+2023-10-17 15:06:58,172 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: emailis found
+2023-10-17 15:06:58,507 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: password
+2023-10-17 15:06:58,531 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: passwordis found
+2023-10-17 15:06:58,751 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //button[@type='submit']
+2023-10-17 15:06:58,786 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //button[@type='submit']is found
+2023-10-17 15:06:58,877 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //button[@type='button']
+2023-10-17 15:06:59,888 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //button[@type='button']is found
+2023-10-17 15:07:04,983 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //a[@id='0']
+2023-10-17 15:07:05,016 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //a[@id='0']is found
+2023-10-17 15:07:05,091 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: city
+2023-10-17 15:07:05,123 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: cityis found
+2023-10-17 15:07:05,346 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.className: pac-item
+2023-10-17 15:07:05,655 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.className: pac-itemis found
+2023-10-17 15:07:05,744 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: dates
+2023-10-17 15:07:05,768 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: datesis found
+2023-10-17 15:07:05,948 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //td[@aria-label='October 20, 2023']
+2023-10-17 15:07:05,993 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //td[@aria-label='October 20, 2023']is found
+2023-10-17 15:07:06,120 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //td[@aria-label='October 23, 2023']
+2023-10-17 15:07:06,151 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //td[@aria-label='October 23, 2023']is found
+2023-10-17 15:07:06,266 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //button[contains(text(),'Y’alla!')]
+2023-10-17 15:07:06,308 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //button[contains(text(),'Y’alla!')]is found
+2023-10-17 15:07:06,462 INFO m.ApplicationManager [TestBase.java:31] Finished test--->findCarPositiveThisMonth
+2023-10-17 15:07:06,462 INFO m.ApplicationManager [TestBase.java:32] ***************************************************************************************
+2023-10-17 15:07:12,567 INFO m.ApplicationManager [ApplicationManager.java:42] Tests completed

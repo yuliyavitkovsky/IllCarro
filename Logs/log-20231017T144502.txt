@@ -1,0 +1,33 @@
+2023-10-17 14:45:08,557 INFO m.ApplicationManager [ApplicationManager.java:35] Navigated to the link ---> https://ilcarro.web.app/search
+2023-10-17 14:45:08,617 INFO m.ApplicationManager [TestBase.java:25] Started test ---> findCarPositiveNextMonth
+2023-10-17 14:45:08,619 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //*[.=' Logout ']
+2023-10-17 14:45:11,645 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //*[.=' Logout ']is found
+2023-10-17 14:45:11,646 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //*[.=' Log in ']
+2023-10-17 14:45:11,679 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //*[.=' Log in ']is found
+2023-10-17 14:45:11,814 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: email
+2023-10-17 14:45:11,853 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: emailis found
+2023-10-17 14:45:12,191 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: password
+2023-10-17 14:45:12,211 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: passwordis found
+2023-10-17 14:45:12,433 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //button[@type='submit']
+2023-10-17 14:45:12,462 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //button[@type='submit']is found
+2023-10-17 14:45:12,557 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //button[@type='button']
+2023-10-17 14:45:13,616 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //button[@type='button']is found
+2023-10-17 14:45:18,695 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //a[@id='0']
+2023-10-17 14:45:18,729 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //a[@id='0']is found
+2023-10-17 14:45:18,804 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: city
+2023-10-17 14:45:18,838 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: cityis found
+2023-10-17 14:45:19,112 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.className: pac-item
+2023-10-17 14:45:19,596 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.className: pac-itemis found
+2023-10-17 14:45:19,673 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: dates
+2023-10-17 14:45:19,700 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: datesis found
+2023-10-17 14:45:19,872 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //button[@aria-label='Next month']
+2023-10-17 14:45:19,918 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //button[@aria-label='Next month']is found
+2023-10-17 14:45:20,036 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //td[@aria-label='November 14, 2023']
+2023-10-17 14:45:20,064 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //td[@aria-label='November 14, 2023']is found
+2023-10-17 14:45:20,159 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //td[@aria-label='November 28, 2023']
+2023-10-17 14:45:20,187 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //td[@aria-label='November 28, 2023']is found
+2023-10-17 14:45:20,291 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //button[contains(text(),'Y’alla!')]
+2023-10-17 14:45:20,320 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //button[contains(text(),'Y’alla!')]is found
+2023-10-17 14:45:20,466 INFO m.ApplicationManager [TestBase.java:31] Finished test--->findCarPositiveNextMonth
+2023-10-17 14:45:20,466 INFO m.ApplicationManager [TestBase.java:32] ***************************************************************************************
+2023-10-17 14:45:26,605 INFO m.ApplicationManager [ApplicationManager.java:42] Tests completed

@@ -1,0 +1,126 @@
+2023-10-17 14:29:09,718 INFO m.ApplicationManager [ApplicationManager.java:35] Navigated to the link ---> https://ilcarro.web.app/search
+2023-10-17 14:29:09,789 INFO m.ApplicationManager [TestBase.java:25] Started test ---> addNewCarPositive
+2023-10-17 14:29:09,791 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //*[.=' Logout ']
+2023-10-17 14:29:12,858 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //*[.=' Logout ']is found
+2023-10-17 14:29:12,858 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //*[.=' Log in ']
+2023-10-17 14:29:12,891 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //*[.=' Log in ']is found
+2023-10-17 14:29:13,036 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: email
+2023-10-17 14:29:13,063 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: emailis found
+2023-10-17 14:29:13,389 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: password
+2023-10-17 14:29:13,429 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: passwordis found
+2023-10-17 14:29:13,658 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //button[@type='submit']
+2023-10-17 14:29:13,694 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //button[@type='submit']is found
+2023-10-17 14:29:13,784 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //button[@type='button']
+2023-10-17 14:29:14,797 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //button[@type='button']is found
+2023-10-17 14:29:19,883 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //a[.=' Let the car work ']
+2023-10-17 14:29:19,917 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //a[.=' Let the car work ']is found
+2023-10-17 14:29:20,073 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.cssSelector: h2
+2023-10-17 14:29:20,109 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.cssSelector: h2is found
+2023-10-17 14:29:20,162 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: pickUpPlace
+2023-10-17 14:29:20,186 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: pickUpPlaceis found
+2023-10-17 14:29:20,404 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.className: pac-item
+2023-10-17 14:29:20,713 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.className: pac-itemis found
+2023-10-17 14:29:20,803 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: make
+2023-10-17 14:29:20,831 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: makeis found
+2023-10-17 14:29:21,041 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: model
+2023-10-17 14:29:21,065 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: modelis found
+2023-10-17 14:29:21,287 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: year
+2023-10-17 14:29:21,314 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: yearis found
+2023-10-17 14:29:21,533 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: fuel
+2023-10-17 14:29:21,558 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: fuelis found
+2023-10-17 14:29:21,603 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: .//option[@value = "Petrol"]
+2023-10-17 14:29:21,639 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: .//option[@value = "Petrol"]is found
+2023-10-17 14:29:21,712 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: seats
+2023-10-17 14:29:21,747 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: seatsis found
+2023-10-17 14:29:21,974 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: class
+2023-10-17 14:29:21,999 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: classis found
+2023-10-17 14:29:22,202 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: serialNumber
+2023-10-17 14:29:22,232 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: serialNumberis found
+2023-10-17 14:29:22,547 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: price
+2023-10-17 14:29:22,582 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: priceis found
+2023-10-17 14:29:22,813 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: about
+2023-10-17 14:29:22,833 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: aboutis found
+2023-10-17 14:29:28,054 INFO m.ApplicationManager [AddNewCarTests.java:41] addNewCarPositive added successfully a new car: KIA with reg.number: 100-200-1754
+2023-10-17 14:29:28,054 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //button[@type='submit']
+2023-10-17 14:29:28,081 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //button[@type='submit']is found
+2023-10-17 14:29:28,169 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //button[normalize-space()='Add another car']
+2023-10-17 14:29:28,913 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //button[normalize-space()='Add another car']is found
+2023-10-17 14:29:28,989 INFO m.ApplicationManager [TestBase.java:31] Finished test--->addNewCarPositive
+2023-10-17 14:29:28,989 INFO m.ApplicationManager [TestBase.java:32] ***************************************************************************************
+2023-10-17 14:29:28,995 INFO m.ApplicationManager [TestBase.java:25] Started test ---> findCarPositive
+2023-10-17 14:29:28,996 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //*[.=' Logout ']
+2023-10-17 14:29:29,031 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //*[.=' Logout ']is found
+2023-10-17 14:29:34,041 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //a[@id='0']
+2023-10-17 14:29:34,074 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //a[@id='0']is found
+2023-10-17 14:29:34,180 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: city
+2023-10-17 14:29:34,201 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: cityis found
+2023-10-17 14:29:34,414 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.className: pac-item
+2023-10-17 14:29:34,621 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.className: pac-itemis found
+2023-10-17 14:29:34,684 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: dates
+2023-10-17 14:29:34,704 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: datesis found
+2023-10-17 14:29:35,137 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: (//div[@class='cdk-overlay-container'])[1]
+2023-10-17 14:29:35,161 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: (//div[@class='cdk-overlay-container'])[1]is found
+2023-10-17 14:29:35,245 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //button[contains(text(),'Y’alla!')]
+2023-10-17 14:29:35,273 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //button[contains(text(),'Y’alla!')]is found
+2023-10-17 14:29:35,415 INFO m.ApplicationManager [TestBase.java:31] Finished test--->findCarPositive
+2023-10-17 14:29:35,415 INFO m.ApplicationManager [TestBase.java:32] ***************************************************************************************
+2023-10-17 14:29:35,417 INFO m.ApplicationManager [TestBase.java:25] Started test ---> findCarPositiveNextMonth
+2023-10-17 14:29:35,418 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //*[.=' Logout ']
+2023-10-17 14:29:35,444 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //*[.=' Logout ']is found
+2023-10-17 14:29:40,450 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //a[@id='0']
+2023-10-17 14:29:45,533 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //a[@id='0']is found
+2023-10-17 14:29:45,725 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: city
+2023-10-17 14:29:45,744 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: cityis found
+2023-10-17 14:29:46,018 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.className: pac-item
+2023-10-17 14:29:46,045 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.className: pac-itemis found
+2023-10-17 14:29:46,113 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.id: dates
+2023-10-17 14:29:46,138 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.id: datesis found
+2023-10-17 14:29:46,258 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //button[@aria-label='Next month']
+2023-10-17 14:29:46,287 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //button[@aria-label='Next month']is found
+2023-10-17 14:29:46,379 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //td[@aria-label='November 14, 2023']
+2023-10-17 14:29:49,436 INFO m.WDListener [WDListener.java:33] Something went wrong
+2023-10-17 14:29:49,437 INFO m.WDListener [WDListener.java:34] no such element: Unable to locate element: {"method":"xpath","selector":"//td[@aria-label='November 14, 2023']"}
+  (Session info: chrome=117.0.5938.152)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-V4G640E', ip: '10.0.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\yuliy\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64883}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 376677419f507fe9e72aff7e65f38514
+*** Element info: {Using=xpath, value=//td[@aria-label='November 14, 2023']}
+2023-10-17 14:29:49,437 INFO m.WDListener [WDListener.java:35] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//td[@aria-label='November 14, 2023']"}
+  (Session info: chrome=117.0.5938.152)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-V4G640E', ip: '10.0.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\yuliy\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64883}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 376677419f507fe9e72aff7e65f38514
+*** Element info: {Using=xpath, value=//td[@aria-label='November 14, 2023']}
+2023-10-17 14:29:49,737 INFO m.WDListener [WDListener.java:39] Here is the path to screenshot with error ---> src/test/screenshots/screenshot-1789.png
+2023-10-17 14:29:49,750 INFO m.ApplicationManager [TestBase.java:31] Finished test--->findCarPositiveNextMonth
+2023-10-17 14:29:49,751 INFO m.ApplicationManager [TestBase.java:32] ***************************************************************************************
+2023-10-17 14:29:49,754 INFO m.ApplicationManager [TestBase.java:25] Started test ---> findCarPositiveThisMonth
+2023-10-17 14:29:49,755 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //*[.=' Logout ']
+2023-10-17 14:29:49,780 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //*[.=' Logout ']is found
+2023-10-17 14:29:54,782 INFO m.WDListener [WDListener.java:21] Start searching element by locator ---> By.xpath: //a[@id='0']
+2023-10-17 14:29:54,809 INFO m.WDListener [WDListener.java:27] Element with locator ---> By.xpath: //a[@id='0']is found
+2023-10-17 14:29:55,982 INFO m.WDListener [WDListener.java:33] Something went wrong
+2023-10-17 14:29:55,983 INFO m.WDListener [WDListener.java:34] element click intercepted: Element <a _ngcontent-ueu-c44="" class="navigation-link" id="0" ng-reflect-router-link="search" href="/search">...</a> is not clickable at point (345, 10). Other element would receive the click: <div class="mat-calendar-header">...</div>
+  (Session info: chrome=117.0.5938.152)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-V4G640E', ip: '10.0.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\yuliy\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64883}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 376677419f507fe9e72aff7e65f38514
+2023-10-17 14:29:55,983 INFO m.WDListener [WDListener.java:35] org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-ueu-c44="" class="navigation-link" id="0" ng-reflect-router-link="search" href="/search">...</a> is not clickable at point (345, 10). Other element would receive the click: <div class="mat-calendar-header">...</div>
+  (Session info: chrome=117.0.5938.152)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-V4G640E', ip: '10.0.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.152, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\yuliy\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64883}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 376677419f507fe9e72aff7e65f38514
+2023-10-17 14:29:56,233 INFO m.WDListener [WDListener.java:39] Here is the path to screenshot with error ---> src/test/screenshots/screenshot-1795.png
+2023-10-17 14:29:56,235 INFO m.ApplicationManager [TestBase.java:31] Finished test--->findCarPositiveThisMonth
+2023-10-17 14:29:56,236 INFO m.ApplicationManager [TestBase.java:32] ***************************************************************************************
+2023-10-17 14:30:02,577 INFO m.ApplicationManager [ApplicationManager.java:42] Tests completed
