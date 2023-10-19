@@ -9,7 +9,7 @@
     <test name="smoke_tests" >
         <classes>
             <class name="LoginTests" />
-            <class name="AddNewCarTests" />
+            <class name="AddFindNewCarTests" />
         </classes>
     </test>
 </suite>

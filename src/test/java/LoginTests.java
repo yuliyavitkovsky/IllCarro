@@ -26,6 +26,16 @@ public class LoginTests extends TestBase{
         Assert.assertTrue(isLoggedSuccess());
         clickOkButton();
     }
+    @Test(groups = {"positive", "smoke"})
+    public void loginPositiveTestProps(){
+
+        openLoginForm();
+        fillLoginForm(getEmail(),getPassword());
+        submitLogin();
+       // logger.info("loginPositiveTest starts with:" + email + " & " + password);
+        Assert.assertTrue(isLoggedSuccess());
+        clickOkButton();
+    }
     @Test(groups = {"positive"})
     public void loginPositiveTestModel(){
         User user = new User()

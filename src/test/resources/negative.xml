@@ -10,7 +10,7 @@
         <classes>
             <class name="LoginTests" />
             <class name="RegistrationTests" />
-            <class name="AddNewCarTests" />
+            <class name="AddFindNewCarTests" />
         </classes>
     </test>
 </suite>

@@ -4,33 +4,73 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="898cda76-6046-4d95-b957-c6cd64e31d2a" name="Changes" comment="HW16">
+    <list default="true" id="898cda76-6046-4d95-b957-c6cd64e31d2a" name="Changes" comment="HW19">
       <change afterPath="$PROJECT_DIR$/Logs/log-20230928T135254.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20230928T135548.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20230928T140553.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20230928T140837.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20230928T153159.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20231003T153210.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20231003T153516.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20231003T153636.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20231003T153720.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20231003T153809.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20231003T155354.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20231003T155530.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20231003T155627.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20231003T155922.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20231003T160004.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20231003T160049.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20231003T160620.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20231003T160806.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20231003T160948.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20231003T161142.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20231003T161338.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20231003T161501.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/log-20231003T161530.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/log-20231017T142823.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/log-20231017T142904.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/log-20231017T144420.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/log-20231017T144502.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/log-20231017T150218.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/log-20231017T150544.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/log-20231017T150614.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/log-20231017T150649.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/log-20231017T150736.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/log-20231017T151503.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/log-20231017T151616.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/log-20231017T153058.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/log-20231017T153619.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/log-20231018T182625.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/log-20231018T182842.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-1000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-1101.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-1261.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-1447.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-1456.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-146.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-1464.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-176.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-1789.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-1795.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-1805.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-1816.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-1821.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-186.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-2156.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-2335.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-2390.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-2533.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-2539.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-262.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-2683.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-2717.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-2811.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-2844.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-2885.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-2930.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-2966.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-3005.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-3025.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-3116.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-3354.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-3541.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-3549.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-589.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-706.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-722.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-728.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-798.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-814.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-821.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/manager/HelperCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/HelperCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AddNewCarTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AddNewCarTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/manager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/ApplicationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/add.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/add.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/negative.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/negative.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/positive.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/positive.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/smoke.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/smoke.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,16 +128,17 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/ProjectsJava/IllCarro&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/ProjectsJava/IllCarro/src/test/resources&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\ProjectsJava\IllCarro\src\test\resources" />
       <recent name="C:\ProjectsJava\IllCarro" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LoginTests">
-    <configuration name="AddNewCarTests.addNewCarPositive" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.AddFindNewCarTests.findCarPositive">
+    <configuration name="AddFindNewCarTests.findCarPositive" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -110,7 +151,79 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;AddNewCarTests.addNewCarPositive&quot;" />
+            <option value="&quot;AddFindNewCarTests.findCarPositive&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="AddFindNewCarTests.findCarPositiveThisMonth" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;AddFindNewCarTests.findCarPositiveThisMonth&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="AddNewCarTests.findCarPositive" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;AddNewCarTests.findCarPositive&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="AddNewCarTests.findCarPositiveThisMonth" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;AddNewCarTests.findCarPositiveThisMonth&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -145,83 +258,13 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="LoginTests.loginNegativeTestWrongEmail" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;LoginTests.loginNegativeTestWrongEmail&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="RegistrationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;RegistrationTests&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="Tests in 'IllCarro.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.AddFindNewCarTests.findCarPositive" />
         <item itemvalue="Gradle.LoginTests" />
-        <item itemvalue="Gradle.LoginTests.loginNegativeTestWrongEmail" />
-        <item itemvalue="Gradle.Tests in 'IllCarro.test'" />
-        <item itemvalue="Gradle.AddNewCarTests.addNewCarPositive" />
-        <item itemvalue="Gradle.RegistrationTests" />
+        <item itemvalue="Gradle.AddFindNewCarTests.findCarPositiveThisMonth" />
+        <item itemvalue="Gradle.AddNewCarTests.findCarPositive" />
+        <item itemvalue="Gradle.AddNewCarTests.findCarPositiveThisMonth" />
       </list>
     </recent_temporary>
   </component>
@@ -274,7 +317,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696340422866</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="HW19">
+      <option name="closed" value="true" />
+      <created>1697546365859</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697546365859</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -284,6 +335,7 @@
     <MESSAGE value="HW14" />
     <MESSAGE value="HW15" />
     <MESSAGE value="HW16" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW16" />
+    <MESSAGE value="HW19" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW19" />
   </component>
 </project>
