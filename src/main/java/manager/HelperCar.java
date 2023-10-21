@@ -51,15 +51,18 @@ public interface HelperCar extends HelperBase{
     default void fillCalendarForm(Find find) {
         typeCity(find.getLocation());
         click(By.id("dates"));
-        click(By.xpath("//td[@aria-label='October 20, 2023']"));
-        click(By.xpath("//td[@aria-label='October 23, 2023']"));
+        click(By.xpath("//button[@aria-label='Choose month and year']"));
+        click(By.xpath("//td[@aria-label='2023']"));
+        click(By.xpath("//td[@aria-label='October 2023']"));
+        click(By.xpath("//div[.=' 23 ']"));
+        click(By.xpath("//div[.=' 27 ']"));
     }
     default void fillCalendarFormNextMonth(Find find) {
         typeCity(find.getLocation());
         click(By.id("dates"));
         click(By.xpath("//button[@aria-label='Next month']"));
-        click(By.xpath("//td[@aria-label='November 14, 2023']"));
-        click(By.xpath("//td[@aria-label='November 28, 2023']"));
+        click(By.xpath("//div[.=' 23 ']"));
+        click(By.xpath("//div[.=' 27 ']"));
     }
 
     default void typeLocation(String location){

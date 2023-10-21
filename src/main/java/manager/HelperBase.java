@@ -29,7 +29,7 @@ public interface HelperBase extends ApplicationManager{
         element.clear();
         element.sendKeys(text);
     }
-    default void delete(By locator, String text){
+    default void deleteCity(By locator){
         WebElement element = wd.findElement(locator);
         element.click();
         element.clear();

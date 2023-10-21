@@ -4,7 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="898cda76-6046-4d95-b957-c6cd64e31d2a" name="Changes" comment="HW19" />
+    <list default="true" id="898cda76-6046-4d95-b957-c6cd64e31d2a" name="Changes" comment="HW19">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/log-20230928T135254.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/log-20231017T142823.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/log-20231017T142904.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/log-20231017T144420.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/log-20231017T144502.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/log-20231017T150218.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/log-20231017T150544.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/log-20231017T150614.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/log-20231017T150649.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/log-20231017T150736.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/log-20231017T151503.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/log-20231017T151616.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/log-20231017T153058.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/log-20231017T153619.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/log-20231018T182625.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/log-20231018T182842.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/manager/ApplicationManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/manager/ApplicationManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/manager/HelperBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/manager/HelperBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/manager/HelperCar.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/manager/HelperCar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/manager/HelperUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/manager/HelperUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/manager/NGListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/manager/NGListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/manager/WDListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/manager/WDListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/models/Car$CarBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/models/Car$CarBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/models/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/models/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/models/Find$FindBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/models/Find$FindBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/models/Find.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/models/Find.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/models/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/models/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/AddFindNewCarTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/AddFindNewCarTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/LoginTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/LoginTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/RegistrationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/RegistrationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/manager/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/HelperBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/manager/HelperCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/HelperCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AddFindNewCarTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AddFindNewCarTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/screenshots/screenshot-3116.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/screenshots/screenshot-3116.png" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,8 +109,8 @@
       <recent name="C:\ProjectsJava\IllCarro" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.AddFindNewCarTests.findCarPositive">
-    <configuration name="AddFindNewCarTests.findCarPositive" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.AddFindNewCarTests">
+    <configuration name="AddFindNewCarTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -84,7 +123,55 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;AddFindNewCarTests.findCarPositive&quot;" />
+            <option value="&quot;AddFindNewCarTests&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="AddFindNewCarTests.addNewCarPositive" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;AddFindNewCarTests.addNewCarPositive&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="AddFindNewCarTests.findCarPositiveAnyMonth" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;AddFindNewCarTests.findCarPositiveAnyMonth&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -109,54 +196,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;AddFindNewCarTests.findCarPositiveThisMonth&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="AddNewCarTests.findCarPositive" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;AddNewCarTests.findCarPositive&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="AddNewCarTests.findCarPositiveThisMonth" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;AddNewCarTests.findCarPositiveThisMonth&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -193,11 +232,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.AddFindNewCarTests.findCarPositive" />
-        <item itemvalue="Gradle.LoginTests" />
+        <item itemvalue="Gradle.AddFindNewCarTests" />
         <item itemvalue="Gradle.AddFindNewCarTests.findCarPositiveThisMonth" />
-        <item itemvalue="Gradle.AddNewCarTests.findCarPositive" />
-        <item itemvalue="Gradle.AddNewCarTests.findCarPositiveThisMonth" />
+        <item itemvalue="Gradle.LoginTests" />
+        <item itemvalue="Gradle.AddFindNewCarTests.addNewCarPositive" />
+        <item itemvalue="Gradle.AddFindNewCarTests.findCarPositiveAnyMonth" />
       </list>
     </recent_temporary>
   </component>

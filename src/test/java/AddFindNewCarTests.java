@@ -2,6 +2,7 @@ import models.Car;
 import models.Find;
 import models.User;
 import org.openqa.selenium.By;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -11,8 +12,10 @@ public class AddFindNewCarTests extends TestBase {
     public void precondition() {
         if (isLogged() == false) {
             login(new User()
-                    .withEmail("bubu@mail.com")
-                    .withPassword("Bb12345$")
+               //     .withEmail("bubu@mail.com")
+                    .withEmail(getEmail())
+              //      .withPassword("Bb12345$")
+                    .withPassword(getPassword())
             );
         }
     }
@@ -67,7 +70,7 @@ public class AddFindNewCarTests extends TestBase {
         submitFind();
     }
     @Test(groups = {"positive"})
-    public void findCarPositiveNextMonth() {
+    public void findCarPositiveAnyMonth() {
 
         Find find = Find.builder()
                 .location("Tel Aviv")
@@ -77,5 +80,9 @@ public class AddFindNewCarTests extends TestBase {
         fillCalendarFormNextMonth(find);
         submitFind();
     }
-
+@AfterMethod(alwaysRun = true)
+    public void postcondition(){
+    openFindForm();
+    deleteCity(By.id("city"));
+}
 }
